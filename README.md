@@ -8,7 +8,7 @@ I hope this [portfolio](https://markmoehring.github.io/look-what-I-can-do/) will
 
 It is still a work in progress, but you can see it is coming along nicely.
 
-![Look What I Can Do landing page](portfolio-sc.png)
+![Look What I Can Do landing page](./assets/images/portfolio-sc.png)
 
 Please be kindly, but brutally honest in your internal feedback.  And if you'd like to share it externally with me, I am always up to see your "certain point of view".
 

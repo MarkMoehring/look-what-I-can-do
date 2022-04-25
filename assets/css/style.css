@@ -8,8 +8,7 @@
     
 body {
     background-color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 a {
     text-decoration: none;
 }
@@ -83,7 +82,7 @@ a:hover {
     }
 
 .hero h2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
     font-size: 45px;
     color: #ff4800e0;
     background-color: #0f2d57;
@@ -104,22 +103,28 @@ a:hover {
     font-size: 40px;
     width: 20%;
     text-align: right;
-    padding-right: 10px;
-    
+    padding: 0 10px 0 40px;
+
+   
 }
 
 .content-bio, .content-work, .content-contact {
     border-left: solid 4px #0f2d57;
-    width: 80%;
-    padding-left: 10px;
+    border-right: solid 4px #0f2d57;
+    width: 75%;
+    padding: 0 10px 0 30px;
+    margin-right: 10%;
+
+
+
 }
 
-.main-project a {
+.main-project {
     display: flex;
     width: 100%;
     height: 400px;
-    
-   
+    background-color: black;
+    object-fit: cover;
 }
 
 /* .buddy {
@@ -129,21 +134,24 @@ a:hover {
     background-size: cover;
 } */
 
-.also-projects {
+#also-projects {
     display: flex;
     flex-wrap: wrap;
-
+    object-fit: contain;
 }
 
-.also-projects div {
+.wubba {
+    object-fit: cover;
+}
+
+.project-link {
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
-    height: 200px;
-
-}
-
- #pink #floyd {
-    background-image: url("../images/pink-floyd-prism.jpeg");
-    background-size: cover;
+    height: 320px;
+    background-color: black;
+    border: 3px solid black;
+    object-fit: fill;
 }
 
 .contact ul {
